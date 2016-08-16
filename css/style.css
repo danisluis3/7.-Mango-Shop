@@ -1,0 +1,324 @@
+@charset "utf-8";
+@import url("bootstrap.min.css");
+/* CSS Document */
+body{
+	background-image:url(../image/search_bg.png);
+	background-repeat:repeat;
+	margin:auto;	
+}
+#header {
+	background-image: url(../image/head_bg.png);
+	background-size:cover; /** tự co giãn kích thước cho phù hợp nhé */}
+#header-top {
+	background-image: url(../image/header_bg1.png);
+	background-repeat: repeat;
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+#number {
+	font-size: 18px;
+	color: #FFF;
+}
+#text-dec {
+	color: #97afc0;
+}
+#btn-card {
+	padding: 0px;
+	margin-top: 2px;
+}
+#social {
+	margin: 0px;
+	padding: 0px;
+}
+#main {
+	margin-top: 10px;
+}
+#main .col-lg-2 img {
+	padding-bottom: 6px;
+}
+#navigation {
+	padding-top: 18px;
+}
+
+#main .col-lg-8 .row a {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+#navigation center #active {
+	background:#3e7575;
+	opacity:0%;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	padding:0px auto;
+}
+#box-search {
+	background-image: url(../image/search_bg.png);
+	background-repeat: repeat;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 8px;
+	padding-bottom: 3px;
+	margin-top: 10px;
+}
+#box-search input {
+	width: 450px;
+    height: 36px;
+	display:inline;
+}
+#box-search label a {
+	margin-top: -4px;
+}
+
+#btn-log {
+	padding:0px;
+	margin:0px;
+	width:8%;
+	border-radius:8px;
+	border:2px solid #259696;
+	border-shadow:-1px 2px rgba(10, 10, 10, 0.19);
+	margin-left:70px;
+	margin-top:30px;
+}
+#btn-log #sign {
+	width: 100%;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background: -moz-linear-gradient(bottom, #D5CFCF 30%, #FDFDFD 70%);
+	background: -o-linear-gradient(bottom, #D5CFCF 30%, #FDFDFD 70%);
+	background: -ms-linear-gradient(bottom, #D5CFCF 30%, #FDFDFD 70%);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.1, #D5CFCF),color-stop(0.7, #FDFDFD));
+}
+#btn-log #sign a{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ff0006;
+	font-weight:bold;
+}
+#btn-log #reg {
+	width:100%;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	border-top:2px solid #259696;
+}
+#btn-log #reg a{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: white;
+	font-weight:bold;	
+}
+#slide center img {
+	margin-top: 10px;
+}
+#main-content {
+	margin-top:10px;
+}
+#left {
+	background-color: #FFF;
+	color: #838383;
+	width:113%;
+	margin-right: 10px;
+	border-radius:10px;
+	padding-top:10px;
+	border:4px solid #e9e6ae;
+}
+#cat {
+	background-image: url(../image/cat.png);
+	background-repeat:no-repeat;
+	background-size:100% 105%;
+	padding-top:5px;
+	padding-bottom:15px;
+	color:white;
+	font-weight:bold;
+	font-size:24px;
+	margin-left:-43px;
+}
+#left #content-left {
+	margin-left: 10px;
+}
+#left #content-left ul{
+	list-style-type:none;
+}
+#left #content-left ul li{
+	margin:8px;
+}
+#left #content-left ul li a {
+	color:black;
+}
+#cat-review {
+	
+}
+#title-pr {
+	color:#fe6847;
+	font-size:20px;
+}
+#title-pr span {
+	color:#757573;
+	font-size:22px;
+	font-weight:bold;
+}
+#cat-review #review {	
+	padding-left:9px;
+}
+#cat-review #review .col-lg-9 a {
+	color:black;
+	text-decoration:none;
+	border-bottom:
+}
+#cat-review #line {
+	border-bottom:solid 2px #D5D189;
+	width:100%;
+	margin-left:0px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#btn-more {
+	border-radius: 20px;
+	border:solid 2px #CBC892;
+	box-shadow:2px 2px rgba(27, 26, 26, 0.11);
+	margin-left:20px;
+	margin-top:15px;
+}
+#main-content .col-lg-3 .row a {
+	color:black;
+}
+#main-content .col-lg-3 .row a:hover {	
+	color:#fd825f;
+}
+#main-content .col-lg-9 #title-pr {
+	margin-left:10px;
+}
+#today {
+	border-radius:10px;
+	border:4px solid #e9e6ae;
+	padding-left:15px;
+	padding-top:15px;
+	margin-left:10px;
+	background-color:#FFF;
+	width:100%;
+}
+#today #p-detail {
+	border-right:1px solid #ebe8b0;
+	margin-right:35px;
+	width:30%;
+	margin-bottom:10px;
+}
+#today #p-detail-last {
+	width:30%;
+	margin-bottom:10px;
+}
+
+#main-content .col-lg-9 #today .col-lg-4 .row img {
+	border-radius:10px;
+	margin-right:10px;
+}
+
+#main-content .col-lg-9 #today .col-lg-4 .row p {
+	margin-top:10px;
+	width:100%;
+}
+#main-content .col-lg-9 #today .col-lg-4 .row p span {
+	color:#3d8c9a;
+	font-size:23px;
+	font-weight:bold;
+}
+
+#main-content .col-lg-9 #today .col-lg-4 .row a {
+	text-decoration:none;
+	color:red;
+}
+#popular{
+	margin-left: 10px;
+}
+#popular #p-detail {
+	border-radius:10px;
+	border:5px solid #e9e6ae;
+	background:#FFF;
+	height:80%;
+	padding-bottom:25px;
+}
+#popular center #p-detail .row img {
+	width:100%;
+}
+
+#popular center #p-detail .row p {
+	font-weight:bold;
+	margin-left:10px;
+	width:80%;
+}
+#popular center #p-detail .row p span {
+	color:#3d8c9a;
+	font-size:23px;
+	font-weight:bold;
+}
+#popular center #p-detail .row a {
+	border-radius:20px;
+	border:2px solid #cbc892;
+	padding:8px 18px;
+	text-decoration:none;
+	background-color:#f8f7e5;
+	margin-left:10px;
+}
+#bg-footer {
+	background-image: url(../image/ft-bg.png);
+	background-repeat: repeat;
+	height:37px;
+}
+#line {
+	margin-top:15px;
+	margin-left:10px;
+	width:100%;
+	border-top:2px solid #c2be67;
+}
+#pagelist a{
+	margin:15px auto;
+	color: #F00;
+}
+#pagelist #active{
+	border-radius:3px;
+	background-color:#c2be67;
+}
+#footer {
+	color: #FFF;
+	font-weight:bold;
+	background-image: url(../image/header_bg.png);
+	background-repeat: repeat;
+}
+#footer ul{
+	list-style-type:none;	
+}
+#footer ul li a {
+	text-decoration: none;
+	color: #FFF;
+}
+#footer #author {
+	color: #FFF;
+    font-weight: bold;
+    margin-left: 100px;
+}
+#footer #search {
+	margin-top:25px;
+}
+#footer #search input{
+	width:70%;
+	display:inline; /** - ta muốn mi nằm ngang nhé --**/	
+}
+#footer #search a {
+	margin-top:-5px;
+	color:#901C03;
+	box-shadow:inset 0px -15px 50px #FE7759;
+	border:solid 1px #000000;
+}
+#advertisement {
+	margin:10px auto;
+}
+#advertisement p{
+	color:#c2c5c9;
+	font-weight:bold;
+}
+#footer #advertisement img {
+	
+}
